@@ -5,7 +5,7 @@ import 'package:skinfirst/controllers/auth_controller.dart';
 import 'package:skinfirst/controllers/connectivity_controller.dart';
 
 class SplashScreenView extends StatefulWidget {
-  SplashScreenView({super.key});
+  const SplashScreenView({super.key});
 
   @override
   State<SplashScreenView> createState() => _SplashScreenViewState();
