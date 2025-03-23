@@ -28,3 +28,5 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
   res.send("Skin first!");
 });
+
+export default app;
