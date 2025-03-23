@@ -9,7 +9,6 @@ const getAlldoctors = async (req, res) => {
         const { patientId } = req.params;
         
     } catch (error) {
-        console.log(`Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,

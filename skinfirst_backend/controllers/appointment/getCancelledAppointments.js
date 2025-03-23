@@ -28,7 +28,6 @@ const getCancelledAppointment = async (req, res) => {
             message: "All cancelled appointment fetched successfully"
         });
     } catch (error) {
-        console.log(`Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,

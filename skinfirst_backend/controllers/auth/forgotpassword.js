@@ -5,7 +5,6 @@ const forgotPassword = async (req, res) => {
     try {
         
     } catch (error) {
-        console.log(`Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,

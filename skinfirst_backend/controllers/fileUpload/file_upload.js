@@ -18,8 +18,6 @@ const imageUpload = async (file) => {
 
         const response = await cloudinary.uploader.upload(file.tempFilePath, options);
 
-        console.log("Response is: ", response);
-
         return {
             secure_url: response.secure_url, 
             public_id: response.public_id

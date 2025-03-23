@@ -30,7 +30,6 @@ const getUpcomingAppointment = async (req, res) => {
         });
         
     } catch (error) {
-        console.log("Failed to get the latest appointmnet of the patient");
         res.status(500).json(
             {
                 success: false,

@@ -17,7 +17,6 @@ const getADoctor = async (req, res) => {
         );
         
     } catch (error) {
-        console.log(`getting single doctor Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,

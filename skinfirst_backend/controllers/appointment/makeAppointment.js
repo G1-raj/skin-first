@@ -59,7 +59,6 @@ const makeAppointment = async (req, res) => {
         });
         
     } catch (error) {
-        console.log(`fail to make appointment Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,

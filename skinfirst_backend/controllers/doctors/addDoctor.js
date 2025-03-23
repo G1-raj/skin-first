@@ -50,7 +50,6 @@ const addDoctor = async (req, res) => {
 
         
     } catch (error) {
-        console.log(`adding doctor Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,

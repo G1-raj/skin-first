@@ -25,7 +25,6 @@ const cancelAppointment = async (req, res) => {
         );
         
     } catch (error) {
-        console.log(`Error is: ${error}`);
         res.status(500).json(
             {
                 success: false,
